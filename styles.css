@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+i {
+    font-size: 2.2rem;
+}
+nav {
+    height: 100vh;
+    width: 15%;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid rgb(201, 190, 190);
+}
+nav > img {
+    margin: 2rem 0;
+}
+nav > div > a {
+    display: flex;
+    padding: 1.7rem 0;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+}
+nav >  div > a:hover {
+    background-color: rgb(250, 250, 250);
+}
+nav > div > a:hover > i {
+    font-size: 2.4rem;
+}
+nav > div > a:hover > img {
+    width: 28px;
+    height: 28px;
+}
+nav > div.last > a {
+    margin-top: 3.5rem;
+}
+.bold {
+    font-weight: 500;
+}
+nav > div > a > p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+nav > div > a > img {
+    border-radius: 50%;
+}
+section {
+    background-color: rgb(247, 247, 247);
+    width: 85%;
+}
+#main-section {
+    margin-left: 18%;
+    padding: 3rem 3rem 3rem 15rem;
+}
+.stories {
+    background-color: white;
+    width: 92%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(201, 190, 190);
+    border-radius: 1rem;
+    padding: 1rem 1rem 3rem 1rem;
+}
+.stories > div > div {
+    background: url("./images/circle1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.stories > div > div > img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+}
+.stories > div > p {
+    margin-left: 1rem;
+}
+.insta-pictures {
+    background-color: white;
+    width: 95.6%;
+    border: 1px solid rgb(201, 190, 190);
+    border-radius: 1rem;
+    margin-top: 1.6rem;
+}
+.insta-pictures-header {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+.insta-pictures-header > img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.insta-pictures-header > h4 {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.insta-pictures-header > i {
+    margin-left: auto;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.insta-pictures-caption {
+    padding: 1rem;
+}
+.insta-pictures-caption > div:nth-of-type(1) {
+    display: flex;
+}
+.insta-pictures-caption > div:nth-of-type(1) > i {
+    margin-right: 1.3rem;
+    font-size: 2.2rem;
+}
+.insta-pictures-caption > div:nth-of-type(1) > .fa-bookmark {
+    margin-left: auto;
+    margin-right: 0;
+}
+.insta-pictures-caption > h4 {
+    margin: 0.5rem 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.insta-pictures-caption > h4 > span {
+    font-weight: 400;
+}
+.insta-pictures-caption > p {
+    font-size: 1.4rem;
+    color: rgb(153, 149, 149);
+    line-height: 1.8;
+}
+.insta-pictures-footer {
+    padding: 1rem;
+    border-top: 1px solid rgb(233, 226, 226);
+    display: flex;
+}
+.insta-pictures-footer > p {
+    font-size: 1.4rem;
+    color: rgb(153, 149, 149);
+    margin: 0.4rem 0.7rem;
+}
+.insta-pictures-footer > h5 {
+    font-size: 1.3rem;
+   margin-left: auto;
+   margin-top: 0.5rem;
+   font-weight: 500;
+   color: rgb(180, 245, 223);
+}
+.insta-pictures-footer > i {
+    font-size: 2.2rem;
+}
+#side-section {
+    padding-top: 5rem;
+    margin-left: -2rem;
+}
+#side-section > div {
+    width: 75%;
+    display: flex;
+    margin: 0.5rem 0;
+}
+#side-section > div > img.profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#side-section > div > div {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+#side-section > div > div > h4 {
+    font-weight: 550;
+}
+#side-section > div > div > p {
+    color: rgb(153, 149, 149);
+    font-size: 1.2rem;
+}
+#side-section > div > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+} 
+#side-section > div > h5 {
+    margin-left: auto;
+    color: rgb(24, 145, 243);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.8rem;
+}
+#side-section > div > div > h4.special-text {
+    color: rgb(153, 149, 149);
+    margin-left: -1rem;
+}
+#side-section > div > h5.see-all {
+    color: black;
+    margin-top: 0.7rem;
+}
+footer{
+    margin-top: 3rem;
+    width: 80%;
+    color: rgb(153, 149, 149);
+    font-size: 1.2rem;
+}
+footer > a {
+    text-decoration: none;
+    color: inherit; 
+}
+footer > p {
+    margin-top: 1.5rem;
+
+}
